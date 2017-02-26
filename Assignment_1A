@@ -27,7 +27,7 @@ for (i in 1:1000){    # loop for generating 1000   50 long binomial sequences
   }
 }
   if (k == 0.5){
-  p["ub"] = sum(hit_v)/1000 #YOU TASK IS TO REWRITE THIS, the p must contain an estimated probability
+  p["ub"] = sum(hit_v)/1000
   }
   else{
     p["b"] = sum(hit_v)/1000
