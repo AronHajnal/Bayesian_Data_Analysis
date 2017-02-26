@@ -38,8 +38,6 @@ print( paste('p_ub: ', toString(p["ub"]) ) , quote = F)
 print( paste('p_b: ', toString(p["b"]) ) , quote = F)
 
 
-
-# # for the 5. part of the exercise A
  
  q=list(ub=0.6, b=0.4)   # biased and unbiased coin proportions in the bag
   
